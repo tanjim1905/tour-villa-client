@@ -1,9 +1,9 @@
-import './App.css';
+import Router from "./util/Router/Router";
 
 function App() {
   return (
     <>
-      
+      <Router />
     </>
   );
 }
