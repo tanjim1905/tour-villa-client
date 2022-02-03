@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Login from '../../../pages/Authentication/Login/Login';
 
 const NavTop = () => {
+    const [showLogin, setShowLogin] = useState(false);
     return (
         <div className='container flex justify-between items-center px-6'>
             <div className='flex space-x-12'>
@@ -15,10 +17,12 @@ const NavTop = () => {
                     <i className='fab fa-youtube'></i>
                 </div>
                 <div className='space-x-4'>
-                    <button><i className='fas fa-user mr-1'></i> Login</button>
+                    <button onClick={() => setShowLogin(true)}><i className='fas fa-user mr-1'></i> Login</button>
                     <button><i className='fas fa-sign-in-alt mr-1'></i> Sign Up</button>
                 </div>
             </div>
+
+            {showLogin && <Login showLogin={showLogin} setShowLogin={setShowLogin} />}
         </div>
     );
 };
