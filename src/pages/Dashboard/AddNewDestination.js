@@ -5,7 +5,7 @@ const AddNewDestination = () => {
     const { register, handleSubmit } = useForm();
 
     const addNewDestination = data => {
-        fetch("http://localhost:7000/destination", {
+        fetch("https://polar-ridge-29451.herokuapp.com/destination", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

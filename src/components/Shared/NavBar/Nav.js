@@ -21,11 +21,13 @@ function Nav() {
                                 <div className="ml-10 flex items-baseline space-x-4">
                                     <div className="text-white space-x-4">
                                         <Link className="hover:text-primary" to={"/home"}>Home</Link>
-                                        <Link className="hover:text-primary" to={"/blog"}>Add New Blog</Link>
-                                        <Link className="hover:text-primary" to={"/service"}>Add New Service</Link>
-                                        <Link className="hover:text-primary" to={"/allorders"}>My Orders</Link>
-                                        <Link className="hover:text-primary" to={"/all product"}>Manage All Orders</Link>
-                                        <Link className="hover:text-primary" to={"/all product"}>Add New Destination</Link>
+                                        {user.email ? <span className="text-white space-x-4">
+                                            <Link className="hover:text-primary" to={"/blog"}>Add New Blog</Link>
+                                            <Link className="hover:text-primary" to={"/service"}>Add New Service</Link>
+                                            <Link className="hover:text-primary" to={"/allorders"}>My Orders</Link>
+                                            <Link className="hover:text-primary" to={"/all product"}>Manage All Orders</Link>
+                                            <Link className="hover:text-primary" to={"/all product"}>Add New Destination</Link>
+                                        </span> : null}
                                     </div>
                                 </div>
 
@@ -94,11 +96,13 @@ function Nav() {
                                     <Link className="hover:text-primary" to={"/home"}>Home</Link>
                                     <Link className="hover:text-primary" to={"/about"}>About</Link>
                                     <Link className="hover:text-primary" to={"/contact"}>Contact Us</Link>
-                                    <button>Dashboard</button>
-                                    <Link className="hover:text-primary" to={"/blog"}>Add New Blog</Link>
-                                    <Link className="hover:text-primary" to={"/service"}>Add New Service</Link>
-                                    <Link className="hover:text-primary" to={"/allorders"}>My Orders</Link>
-                                    <Link className="hover:text-primary" to={"/all product"}>Manage All Orders</Link>
+                                    {user.email ? <span className="text-white">
+                                        <Link className="hover:text-primary" to={"/blog"}>Add New Blog</Link>
+                                        <Link className="hover:text-primary" to={"/service"}>Add New Service</Link>
+                                        <Link className="hover:text-primary" to={"/allorders"}>My Orders</Link>
+                                        <Link className="hover:text-primary" to={"/all product"}>Manage All Orders</Link>
+                                        <Link className="hover:text-primary" to={"/all product"}>Add New Destination</Link>
+                                    </span> : null}
                                 </div>
 
                                 <div className="text-white text-center py-2">

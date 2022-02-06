@@ -7,7 +7,7 @@ const Booking = ({ details }) => {
     const { user } = useAuth();
 
     const addNewOrder = data => {
-        fetch("http://localhost:7000/allorders", {
+        fetch("https://polar-ridge-29451.herokuapp.com/allorders", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

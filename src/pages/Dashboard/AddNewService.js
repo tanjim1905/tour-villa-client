@@ -5,7 +5,7 @@ const AddNewService = () => {
     const { register, handleSubmit } = useForm();
 
     const addNewService = data => {
-        fetch("http://localhost:7000/services", {
+        fetch("https://polar-ridge-29451.herokuapp.com/services", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

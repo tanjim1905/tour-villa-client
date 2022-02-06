@@ -8,7 +8,7 @@ const ServiceDetails = () => {
     console.log(detailsId);
 
     useEffect(() => {
-        fetch(`http://localhost:7000/services/details/${detailsId}`)
+        fetch(`https://polar-ridge-29451.herokuapp.com/services/details/${detailsId}`)
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])

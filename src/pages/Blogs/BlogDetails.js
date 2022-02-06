@@ -7,7 +7,7 @@ const BlogDetails = () => {
     console.log(blogId);
 
     useEffect(() => {
-        fetch(`http://localhost:7000/blog/details/${blogId}`)
+        fetch(`https://polar-ridge-29451.herokuapp.com/blog/details/${blogId}`)
             .then(res => res.json())
             .then(data => setBlog(data));
     }, [])

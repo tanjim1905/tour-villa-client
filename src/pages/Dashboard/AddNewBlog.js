@@ -5,7 +5,7 @@ const AddNewBlog = () => {
     const { register, handleSubmit } = useForm();
 
     const addNewService = data => {
-        fetch("http://localhost:7000/blogs", {
+        fetch("https://polar-ridge-29451.herokuapp.com/blogs", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

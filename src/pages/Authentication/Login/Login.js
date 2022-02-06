@@ -12,10 +12,6 @@ const Login = () => {
         const password = data.password;
         registerWithEmailPassword(email, password);
     }
-
-    const handleGoogleSignIn = () => {
-        signInWithGoogle();
-    }
     return (
         <div className="bg-white lg:w-6/12 md:6/12 w-10/12 my-10 border border-gray-200 mx-auto rounded-lg">
             <div className="py-8 px-8 rounded-xl">
@@ -49,7 +45,7 @@ const Login = () => {
                         <button className="w-full text-sm flex items-center justify-center text-gray-600 font-medium bg-gray-100 p-3 duration-300 rounded-md hover:bg-blue-600 hover:text-white"><i className='fab fa-facebook-f mr-2'></i> Login With Facebook</button>
                     </div>
                     <div>
-                        <button onClick={handleGoogleSignIn} className="w-full text-sm flex items-center justify-center text-gray-600 font-medium bg-gray-100 p-3 duration-300 rounded-md hover:bg-red-500 hover:text-white"><i className='fab fa-google mr-2'></i> Login With Google</button>
+                        <button onClick={signInWithGoogle} className="w-full text-sm flex items-center justify-center text-gray-600 font-medium bg-gray-100 p-3 duration-300 rounded-md hover:bg-red-500 hover:text-white"><i className='fab fa-google mr-2'></i> Login With Google</button>
                     </div>
                 </div>
 
