@@ -1,0 +1,50 @@
+[
+    {
+        "img": "https://i.ibb.co/yBh3zjQ/flight-reservations.jpg",
+        "title": "Flight Reservations",
+        "price": "780",
+        "discount": "690",
+        "description": "As an IATA, ASATA and ANTA accredited travel agency Trip Travel offers cost effective flight reservations to all destinations.",
+        "details": "Preference for any particular airline is of course taken into consideration whenever reservations are made. Trip Travel’s association with Tourvest Travel Services gives Trip Travel a firm representation in the international arena."
+    },
+    {
+        "img": "https://i.ibb.co/V3hjMDg/accomodation.jpg",
+        "title": "Accommodation",
+        "price": "590",
+        "discount": "550",
+        "description": "Trip Travel takes pride in giving the customers a choice of their specific accommodation needs,",
+        "details": "Trip Travel takes pride in giving the customers a choice of their specific accommodation needs, no matter where – regionally, nationally, and internationally. Certain corporate discounts are available, with preferred accommodation establishments (with bill back facilities)."
+    },
+    {
+        "img": "https://i.ibb.co/yqbgnHz/car-hire.jpg",
+        "title": "Car Hire",
+        "price": "320",
+        "discount": "280",
+        "description": "Trip Travel is an agent for a number of internationally recognized car rental companies.",
+        "details": "A mutually beneficial relationship exists with Europcar, Budget and Avis from with special rates which are passed onto our customers. However, should the customer prefer any other car rental company, Trip Travel will oblige."
+    },
+    {
+        "img": "https://i.ibb.co/Qvb7Pqv/airline-loyalty.jpg",
+        "title": "Airline Loyalty",
+        "price": "690",
+        "discount": "580",
+        "description": "Incentives earned through airline programs are passed onto the customers. Trip Travel would like to ensure that all travelers are in possession of the royalty programs with the airlines.",
+        "details": "Incentives earned through airline programs are passed onto the customers. Trip Travel would like to ensure that all travelers are in possession of the royalty programs with the airlines. For business class travels, Trip Travel ensures the usage of airport lounges to make all customers’ trip as comfortable as humanly possible."
+    },
+    {
+        "img": "https://i.ibb.co/qF6tnF6/accounting-service.webp",
+        "title": "Accounting services",
+        "price": "220",
+        "discount": "190",
+        "description": "Trip Travel issues an invoice to the customer on receipt of a customer’s instruction and post the following day.",
+        "details": "Trip Travel issues an invoice to the customer on receipt of a customer’s instruction and post the following day. Car hire, tours, hotel, etc., are billed on receipt of the supplier’s invoice. Statements reflecting full travel particulars are posted on the 2nd day of each month. Statements are payable within seven (7) days from the date of the issued statement. A customer control account can be generated whenever requested."
+    },
+    {
+        "img": "https://i.ibb.co/rH7CsCg/visaas.webp",
+        "title": "Visas",
+        "price": "250",
+        "discount": "220",
+        "description": "Trip Travel has a department which offers professional and timeous visa services.",
+        "details": "Trip Travel has a department which offers professional and timeous visa services. The department also advises clients regarding visa requirements and/or any other information relevant to a specific destination."
+    }
+]

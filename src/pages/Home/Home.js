@@ -1,10 +1,18 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
+import Banner from '../../components/Banner/Banner';
+import Services from '../../components/Services/Services';
+import Blogs from '../Blogs/Blogs';
+import Destination from '../Destination/Destination';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
         <>
-            <Header />
+            <Banner />
+            <Services />
+            <Destination />
+            <Testimonial />
+            <Blogs />
         </>
     );
 };

@@ -8,6 +8,7 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
+    const myName = "Tanjim"
     
     const signInWithGoogle = () => {
         signInWithPopup(auth, googleProvider)

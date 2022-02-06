@@ -4,7 +4,7 @@ import NavTop from './NavTop';
 
 const NavBar = () => {
     return (
-        <div className='bg-gray-100 py-4'>
+        <div className='bg-gray-800 py-4'>
             <NavTop />
             <Nav />
         </div>
